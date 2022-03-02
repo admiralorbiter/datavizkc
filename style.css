@@ -7,6 +7,12 @@
   height: auto, auto;
 }
 
+.p{
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+
 /* Controls the header section of each page */
 .background-header {
   padding: 30px;
@@ -22,7 +28,7 @@
   margin: 0 0, 0 0;
   background: #00334C;
   color: white;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: "Noto Serif", serif;
 }
 
@@ -71,4 +77,13 @@
 /* selected link */
 .link-footer:active {
   color: #56B2CB;
+}
+
+.link{
+  color: rgb(255, 255, 255, 0.8);
+  
+}
+
+.link:hover {
+  color: white;
 }
