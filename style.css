@@ -2,9 +2,10 @@
 
 /* Used in visualization.html to control size of picture */
 .vis {
-  width: auto, auto;
-  margin: auto, auto;
-  height: auto, auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .p{
@@ -24,6 +25,7 @@
 
 /* Controls the deafault background of each page */
 .background-body {
+  min-height: 600px;
   padding: 60px;
   margin: 0 0, 0 0;
   background: #00334C;
