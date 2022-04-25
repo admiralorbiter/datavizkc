@@ -1,7 +1,7 @@
 const year = new Date().getFullYear();
-const date = new Date(year, 2,3).getTime();
+const date = new Date(year, 4,24).getTime();
 const month = new Date().getMonth();
-const dateNextYear = new Date(year + 1, 2, 3).getTime();
+const dateNextYear = new Date(year + 1, 4, 24).getTime();
 
 //Function to generate the countdown
 let timer = setInterval(function() {
